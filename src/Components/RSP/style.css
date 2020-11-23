@@ -1,0 +1,53 @@
+.game-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap column;
+}
+
+.score {
+    height: 100px;
+    width: 300px;
+    border: 3px solid #d3d3d3;
+    background-color: #ffebcd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.score h1 {
+    color: #117302;
+    margin: 10px 30px;
+}
+
+.selection {
+    display: flex;
+    justify-content: center;
+}
+
+.selection h3 {
+    margin: 30px 70px;
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+
+}
+
+.btn {
+    cursor: pointer;
+    margin: 30px;
+    padding: 3px;
+    width: 120px;
+    background: none;
+    outline: none;
+    border: 2px solid #a9a9a9;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #baba06;
+    transition: .5s;
+    color: #ffffff;
+}
